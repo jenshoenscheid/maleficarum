@@ -6,3 +6,4 @@ has_children: true
 ---
 
 # Basic Rules
+Here are the Basic Rules
