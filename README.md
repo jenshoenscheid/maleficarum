@@ -4,8 +4,6 @@ title: Home
 nav_order: 1
 permalink: /
 ---
-
-
 # Maleficarum
 
 Maleficarum is a tabletop roleplaying game of folk‑horror, witchcraft, and war. It unfolds in the year 1645, when England is torn apart by Civil War. Royalists cling to King Charles, while Cromwell’s Parliamentarians—the Roundheads—march beneath the banner of Parliament. The fragile order of law has collapsed, leaving villages prey to fear, hunger, and the whims of magistrates who wield justice like a weapon.
