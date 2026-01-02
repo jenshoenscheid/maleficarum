@@ -4,21 +4,15 @@
   --text-color: #c9d1d9;
   --link-color: #f2c488;
   --visited-color: #26252b;
-
-    /* Fonts */
-  --font-primary: "Primary Font";
-  --font-header: "Header";
 }
 
 /* -- Local Fonts ---------- */
 
-/* -- HEADER -------------------- */
 @font-face {
   font-family: "Header";
   src: url("/fonts/IMFellGreatPrimer-Regular.ttf") format("truetype");
 }
 
-/* --  PRIMARY  -------------------- */
 @font-face {
   font-family: "Primary Font";
   font-weight: 400;
@@ -27,7 +21,7 @@
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: "Primary Font";
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 1em; /* 1.25rem; 20px */
@@ -41,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-header);
+  font-family: "Header";
   color: var(--heading-color);
   font-weight: 600;
 }
