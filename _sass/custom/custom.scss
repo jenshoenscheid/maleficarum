@@ -4,43 +4,29 @@
   --text-color: #c9d1d9;
   --link-color: #f2c488;
   --visited-color: #26252b;
-}
-/* ##### FONTS ##### */
 
-@font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Regular'), url('/fonts/Merriweather_24pt-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
+    /* Fonts */
+  --font-primary: "Primary Font";
+  --font-header: "Header";
 }
 
+/* -- Local Fonts ---------- */
+
+/* -- HEADER -------------------- */
 @font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Bold'), url('/fonts/Merriweather_24pt-Bold.ttf') format('ttf');
-  font-weight: 700;
-  font-style: normal;
-  font-display: auto;
+  font-family: "Header";
+  src: url("/fonts/IMFellGreatPrimer-Regular.ttf");
 }
 
+/* --  PRIMARY  -------------------- */
 @font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Italic'), url('/fonts/Merriweather_24pt-Italic.ttf') format('ttf');
-  font-weight: 400;
-  font-style: italic;
-  font-display: auto;
-}
-
-@font-face {
-  font-family: 'IM Fell Great Primer';
-  src: local('IM Fell Great Primer'), url('/fonts/IMFellGreatPrimer-Regular.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
+  font-family: "Primary Font";
+  font-weight: normal;
+  src: url("/fonts/Merriweather_24-Regular.ttf");
 }
 
 body {
-  font-family: 'Merriweather';
+  font-family: var(--font-primary);
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 1em; /* 1.25rem; 20px */
@@ -54,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'IM Fell Great Primer';
+  font-family: var(--font-header);
   color: var(--heading-color);
   font-weight: 600;
 }
@@ -112,7 +98,7 @@ img {
 .side-bar .nav-list-item,
 .side-bar .nav-list-link {
   font-size: 1.25rem; /* 20px */
-  font-family: 'IM Fell Great Primer';
+  font-family: var(--font-primary);
 }
 
 .nav-list .nav-list-item .nav-list-link:hover,
