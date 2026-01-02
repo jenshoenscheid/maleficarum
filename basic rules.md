@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basic-Rules
+title: Basic Rules
 nav_order: 2
 has_children: true
 ---
