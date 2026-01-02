@@ -3,7 +3,7 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 # logo: "/img/maleficarum_logo.webp"
 color_scheme: dark
-encoding: UTF-8
+# encoding: UTF-8
   
 # url: https://just-the-docs.github.io
 
