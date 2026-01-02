@@ -109,9 +109,12 @@ img {
   font-family: "Alegreya", Georgia, serif;
 }
 
-/*
 .nav-list .nav-list-item .nav-list-link:hover,
 .nav-list .nav-list-item .nav-list-link.active {
   color: var(--link-color);
 }
-*/
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
