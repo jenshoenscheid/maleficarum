@@ -15,14 +15,15 @@
 /* -- HEADER -------------------- */
 @font-face {
   font-family: "Header";
-  src: url("/fonts/IMFellGreatPrimer-Regular.ttf");
+  src: url("/fonts/IMFellGreatPrimer-Regular.ttf") format("truetype");
 }
 
 /* --  PRIMARY  -------------------- */
 @font-face {
   font-family: "Primary Font";
-  font-weight: normal;
-  src: url("/fonts/Merriweather_24-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Merriweather_24-Regular.ttf") format("truetype");
 }
 
 body {
