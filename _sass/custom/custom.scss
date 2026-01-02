@@ -151,8 +151,25 @@
   font-weight: 400;
   src: url('../fonts/im-fell-dw-pica-v16-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+/* arno pro regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arno Pro';
+  font-style: regular;
+  font-weight: 400;
+  src: url('../fonts/ArnoPro-Regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* arno pro bold - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Arno Pro';
+  font-style: bold;
+  font-weight: 700;
+  src: url('../fonts/ArnoPro-Bold.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
-  font-family: "IM Fell DW Pica", Georgia, serif;
+  font-family: "Arno Pro", Georgia, serif;
   background-color: var(--background-color);
   color: var(--text-color);
   font-size: 1em; /* 1.25rem; 20px */
